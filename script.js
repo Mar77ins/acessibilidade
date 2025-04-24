@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     alternaContraste.addEventListener('click', function () {
+        var imagem = document.getElementById("teste");
+        imagem.src = "./img/r9invert.png";
         document.body.classList.toggle('alto-contraste')
     })
 
